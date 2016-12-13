@@ -1,6 +1,6 @@
 {
   "name": "hasklig",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./lib/main",
   "description": "Hasklig font with ligatures enabled for Haskell, PureScript, and Elm.",
   "keywords": [
