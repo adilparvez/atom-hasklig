@@ -1,0 +1,41 @@
+@root-path: 'atom://hasklig/resources';
+
+.font-face (@name, @style, @file) {
+  @font-path: '@{root-path}/@{file}';
+  @font-face {
+    font-family: @name;
+    font-style: @style;
+    src: url(@font-path);
+  }
+}
+
+.hasklig-font (@name) {
+  atom-text-editor {
+    font-family: @name;
+    font-feature-settings: 'liga' 0;
+  }
+
+  atom-text-editor::shadow {
+    .comment {
+      font-style: italic;
+    }
+  }
+
+  atom-text-editor[data-grammar~='haskell'],
+  atom-text-editor[data-grammar~='purescript'],
+  atom-text-editor[data-grammar~='elm'] {
+    font-family: @name;
+    font-feature-settings: 'liga' 1;
+    text-rendering: optimizeLegibility;
+  }
+
+  atom-text-editor[data-grammar~='haskell']::shadow,
+  atom-text-editor[data-grammar~='purescript']::shadow,
+  atom-text-editor[data-grammar~='elm']::shadow {
+    .string {
+      font-family: @name;
+      font-feature-settings: "liga" 0;
+    }
+  }
+  
+}
