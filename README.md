@@ -8,4 +8,4 @@ Ligatures are disabled in strings.
 
 All thicknesses of the font are included.
 
-![screenshot](screenshot.png)
+![screenshot](https://raw.githubusercontent.com/adilparvez/atom-hasklig/master/screenshot.png)
