@@ -6,6 +6,8 @@ All thicknesses of the font are included.
 
 Ligatures can be enabled per scope.
 
+Ligatures are disabled in strings.
+
 ![screenshot-editor](https://raw.githubusercontent.com/adilparvez/atom-hasklig/master/screenshot-editor.png)
 
 ![screenshot-settings](https://raw.githubusercontent.com/adilparvez/atom-hasklig/master/screenshot-settings.png)
