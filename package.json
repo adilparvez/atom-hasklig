@@ -1,18 +1,18 @@
 {
-  "name": "hasklig",
-  "version": "0.1.1",
-  "main": "./lib/main",
-  "description": "Hasklig font with ligatures enabled for Haskell, PureScript, and Elm.",
-  "keywords": [
-    "font",
-    "haskell",
-    "purescript",
-    "elm",
-    "ligature"
-  ],
-  "repository": "https://github.com/adilparvez/atom-hasklig",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  }
+    "name": "hasklig",
+    "version": "0.1.1",
+    "main": "./lib/main",
+    "description": "Ligatures for code.",
+    "keywords": [
+        "font",
+        "ligature",
+        "haskell",
+        "purescript",
+        "elm"
+    ],
+    "repository": "https://github.com/adilparvez/atom-hasklig.git",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    }
 }
