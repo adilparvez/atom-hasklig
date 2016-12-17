@@ -12,14 +12,14 @@
 .hasklig-font ( @name ) {
     atom-text-editor {
         font-family: @name;
-        font-feature-settings: 'liga' 0;
+        font-feature-settings: 'liga' off, 'calt' off;
     }
     atom-text-editor::shadow {
         .comment {
             font-style: italic;
         }
         .string {
-            font-feature-settings: "liga" 0;
+            font-feature-settings: 'liga' off, 'calt' off;
         }
     }
 }
