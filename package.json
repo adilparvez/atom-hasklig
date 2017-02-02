@@ -1,6 +1,6 @@
 {
   "name": "hasklig",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "main": "./lib/main",
   "description": "Ligatures for code.",
   "keywords": [
